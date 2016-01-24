@@ -14,7 +14,9 @@ function translate(str) {
 
   var suffix = str.slice(0, idx);
 
-  return str.substr(idx) + suffix + "ai";
+  return str.substr(idx) + suffix + "ay";
 }
+
+console.log(translate("california"));
 
 module.exports = translate;
