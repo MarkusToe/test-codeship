@@ -1,4 +1,4 @@
-var vowels = ['a', 'e', 'i', 'o', 'u'];
+var vowels = ['a', 'e', 'i', 'o', 'u', 'v'];
 
 function translate(str) {
   if (vowels.indexOf(str[0]) !== -1) {
