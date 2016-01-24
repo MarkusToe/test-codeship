@@ -1,1 +1,1 @@
-web: node src/pig-latin.js
+web: node src/app.js
