@@ -1,4 +1,4 @@
-var vowels = ['a', 'e', 'i', 'o', 'u', 'v'];
+var vowels = ['a', 'e', 'i', 'o', 'u'];
 
 function translate(str) {
   if (vowels.indexOf(str[0]) !== -1) {
@@ -14,7 +14,7 @@ function translate(str) {
 
   var suffix = str.slice(0, idx);
 
-  return str.substr(idx) + suffix + "ay";
+  return str.substr(idx) + suffix + "ai";
 }
 
 module.exports = translate;
